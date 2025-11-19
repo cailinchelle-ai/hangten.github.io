@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<body id="top" data-page="products">
+    <header class="site-header">
+        <nav aria-label="Primary">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html" aria-current="page">Products</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<h1>Hang Ten</h1>
+    <button>Top</button>
+
+    <ul class="menu">
+                <li>Flat White</li>
+                <li>Acai bowl</li>
+                <li>Smoothie</li>
+                <li>Butterscotch tea</li>
+                <li>Masala chai</li>
+            </ul>
+
+</body>
+<body id="main" class="container">
+    <h2>Our coffee beans & gear</h2>
+
+<form id="product-filter" class="filters">
+    <label for="filter roast"></label>
+    <select name="roast" id="filter roast">
+    <option value="">All</option>
+    <option value="light">Light</option>
+    <option value="medium">Medium</option>
+    <option value="dark">Dark</option>
+    </select>
+<button type="button button id="clear">Clear</button>
+</form>
+
+<section id="product-grid" class="grid">
+    <div class="card" data-roast="Light">
+        <img src="iced_coffee_01204_16x9.jpg" width="120" height="160">
+        <h2>Columbia Virgachaffe</h2>
+        <p>With notes of citrus and cinnamon. a 250g bag.</p>
+    </div>
+    <div class="card" data-roast="medium">
+        <img src="decaf-vs-reg-coffee-scaled.jpg" width="120" height="160">
+        <h2>Columbia Fuera</h2>
+        <p>200g bag of Coffee Finest from Brazil.</p>
+    </div>
+    <div class="card" data-roast="medium">
+        <img src="decaf-vs-reg-coffee-scaled.jpg" width="120" height="160">
+        <h2>Columbia Fuega</h2>
+        <p>200g bag of Coffee Finest from Brazil.</p>
+    </div>    
+    <div class="card" data-roast="dark">
+        <img src="download.jpg" width="120" height="160">
+        <h2>Columba Dove</h2>
+    </div>
+</section>
+
+
+<footer class="site-footer">
+    <p><a href="#top">Back to top</a></p>
+    <p>&copy; Hang Ten Brewbar</p>    
+</footer>
+
+<script src="app.js" defer></script>
+
+</body>
+</html>
